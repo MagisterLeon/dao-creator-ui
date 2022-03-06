@@ -26,7 +26,6 @@
     "web3modal": "^1.9.4"
   },
   "devDependencies": {
-    "@testing-library/cypress": "^8.0.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -37,11 +36,9 @@
     "@types/truffle-privatekey-provider": "^1.1.0",
     "@typescript-eslint/eslint-plugin": "^4.29.3",
     "@typescript-eslint/parser": "^4.31.1",
-    "cypress": "9.5.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-chai-friendly": "^0.7.2",
-    "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-no-only-tests": "^2.6.0",

@@ -14,7 +14,6 @@ module.exports = {
   extends: ['airbnb', 'prettier'],
   plugins: [
     'react',
-    'cypress',
     'chai-friendly',
     'react-hooks',
     'typescript-sort-keys',
@@ -23,7 +22,6 @@ module.exports = {
   ],
   env: {
     browser: true,
-    'cypress/globals': true,
     es6: true,
     jest: true,
   },
@@ -105,7 +103,7 @@ module.exports = {
       files: ['*.{ts,tsx}'],
       parser: '@typescript-eslint/parser',
       parserOptions: {
-        project: ['./tsconfig.json', './cypress/tsconfig.json'],
+        project: ['./tsconfig.json'],
       },
       plugins: ['@typescript-eslint', 'prettier', 'no-only-tests'],
       rules: Object.assign(typescriptEslintRecommended.rules, prettier.rules, {
