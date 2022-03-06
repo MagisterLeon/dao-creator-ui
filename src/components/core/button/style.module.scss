@@ -1,0 +1,40 @@
+@import "src/styles/typography";
+@import "src/styles/colors";
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  font-weight: $fontWeightBold;
+  font-size: $fontSize14;
+  padding: 0.7rem 1rem;
+}
+
+.variant-- {
+  &cta {
+    background-color: $color-daocreator-green;
+    color: $color-white;
+
+    &:hover {
+      background-color: $color-daocreator-green-dark;
+    }
+  }
+
+  &secondary {
+    color: $color-daocreator-grey-light2;
+    background-color: $color-white;
+    border: 0.1rem solid $color-daocreator-grey-light2;
+
+    &:hover {
+      color: $color-daocreator-grey-dark;
+      border-color: $color-daocreator-grey-dark;
+    }
+  }
+}
+
+.isLoading {
+  cursor: wait;
+}

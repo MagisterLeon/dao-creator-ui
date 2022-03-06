@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+@import "./styles/typography.scss";
+@import "./styles/colors.scss";
+
+html {
+  height: 100%;
+  font-size: $fontSizeBase;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-size: $fontSize16;
+  font-family: $fontFamilyBody;
+  font-weight: $fontWeightMedium;
+  background-color: $color-grey-light;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body > #root {
+  height: 100%;
+}
+
+code {
+  font-family: $fontFamilyCode;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: $color-black;
+}
+
+table, th, td {
+    border: 0.1rem solid rgb(224, 224, 224);
+    padding: 1rem 1.5rem;
+}
+
+table {
+    width: calc(100% - 8rem);
+    border-collapse: collapse;
+    margin: 0 4rem;
+    box-sizing: border-box;
+}
+
+table th {
+    user-select: none;
+}
+
+table td {
+    max-width: 10rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
