@@ -1,7 +1,7 @@
 import { Route, Switch } from 'react-router-dom';
 import React, { ReactElement } from 'react';
 
-import Clubs from 'views/clubs/clubs.view';
+import ClubCreate from 'views/clubs/create/club-create.view';
 import Home from 'views/home/home.view';
 import LayoutDefault from 'layouts/default/default.layout';
 
@@ -21,7 +21,7 @@ const RootRoutes = (): ReactElement => (
         exact
         path={ROOT_ROUTES.clubs}
         render={() => (
-          <Clubs/>
+          <ClubCreate/>
         )}
       />
     </LayoutDefault>

@@ -1,7 +1,8 @@
+import Button from '@mui/material/Button';
 import React, { ReactElement } from 'react';
+import Typography from '@mui/material/Typography';
 
 import { useWalletContext, walletConnect } from 'contexts/wallet';
-import Button from 'components/core/button/button.component';
 
 import styles from './style.module.scss';
 
@@ -13,17 +14,18 @@ const Header = (): ReactElement => {
 
   return (
     <header className={styles.root}>
-      <div className={styles.navbar} />
+      <div className={styles.navbar}>
+        <Typography variant="h2">Civitas Nostra</Typography>
+      </div>
       <div className={styles.panelConnect}>
         <span>wallet is {!walletState.isConnected && 'not'} connected</span>
         {!walletState.isConnected ? (
           <Button
             className={styles.button}
-            dataTest="Header__Button--connect-wallet"
-            label="Connect"
             onClick={connectToWallet}
-            variant="cta"
-          />
+            variant="contained">
+            Connect
+          </Button>
         ) : (
           <>
             <span>{walletState.accounts[0]}</span>
