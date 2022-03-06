@@ -15,7 +15,7 @@ const Home = (): ReactElement => {
         <Typography variant="h1">Invest together with an investment club</Typography>
         <Button
           component={Link} size="large"
-          to={ROOT_ROUTES.clubs}
+          to={ROOT_ROUTES.clubsCreate}
           variant="contained"
         >
           Create a web3 investment club

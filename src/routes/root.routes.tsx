@@ -7,6 +7,9 @@ import LayoutDefault from 'layouts/default/default.layout';
 
 import { ROOT_ROUTES } from './routes';
 
+import ClubPreview from '../views/clubs/preview/club-preview.view';
+
+
 const RootRoutes = (): ReactElement => (
   <Switch>
     <LayoutDefault>
@@ -20,6 +23,13 @@ const RootRoutes = (): ReactElement => (
       <Route
         exact
         path={ROOT_ROUTES.clubs}
+        render={() => (
+          <ClubPreview/>
+        )}
+      />
+      <Route
+        exact
+        path={ROOT_ROUTES.clubsCreate}
         render={() => (
           <ClubCreate/>
         )}
