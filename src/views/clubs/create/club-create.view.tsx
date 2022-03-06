@@ -1,3 +1,4 @@
+import { TextField } from '@mui/material';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
@@ -13,22 +14,15 @@ import styles from './style.module.scss';
 
 const steps = [
   {
-    description: `For each ad campaign that you create, you can control how much
-              you're willing to spend on clicks and conversions, which networks
-              and geographical locations you want your ads to show on, and more.`,
-    label: 'Select campaign settings',
-  },
-  {
+    component: <TextField label="Name (e. g. Super DAO" variant="outlined" />,
     description:
-      'An ad group contains one or more ads which target a shared set of keywords.',
-    label: 'Create an ad group',
+      'Choose a publicly visible name for this investment club',
+    label: 'What should we call this investment club?'
   },
   {
-    description: `Try out different ad text to see what brings in the most customers,
-              and learn how to enhance your ads using features like ad extensions.
-              If you run into any problems with your ads, find out how to tell if
-              they're running and how to resolve approval issues.`,
-    label: 'Create an ad',
+    component: <TextField label="USDT" variant="outlined" />,
+    description: `Accepting deposits beyond this amount will require an on-chain transaction with gas, so aim high.`,
+    label: 'What’s the upper limit of the club’s raise?',
   },
 ];
 
@@ -49,25 +43,23 @@ const ClubCreate = (): ReactElement => {
 
   return (
     <div className={styles.clubCreate}>
-      <Box sx={{ maxWidth: 400 }}>
+      <Typography variant="h2">Create on-chain club</Typography>
+      <Typography variant="h4">Define the name & rules around your raise that will enable the on-chain cap table</Typography>
+      <Box sx={{ maxWidth: 600 }}>
         <Stepper activeStep={activeStep} orientation="vertical">
           {steps.map((step, index) => (
-            <Step key={step.label}>
-              <StepLabel
-                optional={
-                  index === 2 ? (
-                    <Typography variant="caption">Last step</Typography>
-                  ) : null
-                }
-              >
-                {step.label}
+            <Step key={step.label} >
+              <StepLabel>
+                <Typography variant="h5">{step.label}</Typography>
               </StepLabel>
               <StepContent>
-                <Typography>{step.description}</Typography>
+                <Typography variant="h6">{step.description}</Typography>
+                {step.component ? step.component : null}
                 <Box sx={{ mb: 2 }}>
                   <div>
                     <Button
                       onClick={handleNext}
+                      size="large"
                       sx={{ mr: 1, mt: 1 }}
                       variant="contained"
                     >
@@ -76,6 +68,7 @@ const ClubCreate = (): ReactElement => {
                     <Button
                       disabled={index === 0}
                       onClick={handleBack}
+                      size="large"
                       sx={{ mr: 1, mt: 1 }}
                     >
                       Back
@@ -88,8 +81,11 @@ const ClubCreate = (): ReactElement => {
         </Stepper>
         {activeStep === steps.length && (
           <Paper elevation={0} square sx={{ p: 3 }}>
-            <Typography>All steps completed - you&apos;re finished</Typography>
-            <Button onClick={handleReset} sx={{ mr: 1, mt: 1 }}>
+            <Typography variant="h4">Collect funds & invest together!</Typography>
+            <Button onClick={handleReset}
+                    size="large"
+                    sx={{ mr: 1, mt: 1 }}
+            >
               Reset
             </Button>
           </Paper>
