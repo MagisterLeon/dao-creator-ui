@@ -1,0 +1,200 @@
+[
+  {
+    "symbol": "BAL",
+    "name": "Balancer",
+    "address": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "decimals": 18,
+    "logoURI": "https://tokens.1inch.exchange/0xba100000625a3754423978a60c9317c58a424e3d.png",
+    "balance": 0.5311970083489838,
+    "network": "ETHEREUM",
+    "price": 10.9,
+    "equity": 5.790047391003923
+  },
+  {
+    "symbol": "COMP",
+    "name": "Compound",
+    "address": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+    "decimals": 18,
+    "logoURI": "https://tokens.1inch.exchange/0xc00e94cb662c3520282e6f5717214004a7f26888.png",
+    "balance": 0.011005722407711176,
+    "network": "ETHEREUM",
+    "price": 98.93,
+    "equity": 1.0887961177948668
+  },
+  {
+    "symbol": "MKR",
+    "name": "Maker",
+    "address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
+    "decimals": 18,
+    "logoURI": "https://tokens.1inch.exchange/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2.png",
+    "balance": 0.000020725769246302,
+    "network": "ETHEREUM",
+    "price": 1686.8,
+    "equity": 0.034960227564662216
+  },
+  {
+    "symbol": "YFV",
+    "name": "YFValue",
+    "address": "0x45f24baeef268bb6d63aee5129015d69702bcdfa",
+    "decimals": 18,
+    "logoURI": "https://tokens.1inch.exchange/0x45f24baeef268bb6d63aee5129015d69702bcdfa.png",
+    "balance": 0.000031095248621235,
+    "network": "ETHEREUM",
+    "price": 0.677356,
+    "equity": 0.000021062553225085255
+  },
+  {
+    "symbol": "CREAM",
+    "name": "Cream",
+    "address": "0x2ba592f78db6436527729929aaf6c908497cb200",
+    "decimals": 18,
+    "logoURI": "https://tokens.1inch.exchange/0x2ba592f78db6436527729929aaf6c908497cb200.png",
+    "balance": 0.001162589708131081,
+    "network": "ETHEREUM",
+    "price": 44.17,
+    "equity": 0.05135158740814985
+  },
+  {
+    "symbol": "TUSD",
+    "name": "TrueUSD",
+    "address": "0x0000000000085d4780b73119b644ae5ecd22b376",
+    "decimals": 18,
+    "logoURI": "https://tokens.1inch.exchange/0x0000000000085d4780b73119b644ae5ecd22b376.png",
+    "balance": 0.002040469086044744,
+    "network": "ETHEREUM",
+    "price": 1.001,
+    "equity": 0.002042509555130788
+  },
+  {
+    "symbol": "YFI",
+    "name": "yearn.finance",
+    "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+    "decimals": 18,
+    "logoURI": "https://tokens.1inch.exchange/0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e.png",
+    "balance": 0.000583268513437642,
+    "network": "ETHEREUM",
+    "price": 18262.2,
+    "equity": 10.651766246100905
+  },
+  {
+    "symbol": "DOUGH",
+    "name": "PieDAO DOUGH v2",
+    "address": "0xad32a8e6220741182940c5abf610bde99e737b2d",
+    "decimals": 18,
+    "logoURI": "https://tokens.1inch.exchange/0xad32a8e6220741182940c5abf610bde99e737b2d.png",
+    "balance": 0.007058627617133418,
+    "network": "ETHEREUM",
+    "price": 0.192059,
+    "equity": 0.0013556729615190272
+  },
+  {
+    "symbol": "COVER",
+    "name": "Cover Protocol Governance Token",
+    "address": "0x4688a8b1f292fdab17e9a90c8bc379dc1dbd8713",
+    "decimals": 18,
+    "logoURI": "https://tokens.1inch.exchange/0x4688a8b1f292fdab17e9a90c8bc379dc1dbd8713.png",
+    "balance": 0.01660153465403809,
+    "network": "ETHEREUM",
+    "price": 28.12,
+    "equity": 0.46683515447155105
+  },
+  {
+    "symbol": "PAINT",
+    "name": "Paint",
+    "address": "0x4c6ec08cf3fc987c6c4beb03184d335a2dfc4042",
+    "decimals": 18,
+    "logoURI": "https://tokens.1inch.exchange/0x4c6ec08cf3fc987c6c4beb03184d335a2dfc4042.png",
+    "balance": 10000,
+    "network": "ETHEREUM",
+    "price": 0.00011117,
+    "equity": 1.1117
+  },
+  {
+    "symbol": "BANK",
+    "name": "Float Bank",
+    "address": "0x24a6a37576377f63f194caa5f518a60f45b42921",
+    "decimals": 18,
+    "logoURI": "https://tokens.1inch.exchange/0x24a6a37576377f63f194caa5f518a60f45b42921.png",
+    "balance": 0.000809456473003767,
+    "network": "ETHEREUM",
+    "price": 18.46,
+    "equity": 0.01494256649164954
+  },
+  {
+    "symbol": "BASK",
+    "name": "BasketDAO Gov",
+    "address": "0x44564d0bd94343f72e3c8a0d22308b7fa71db0bb",
+    "decimals": 18,
+    "logoURI": "https://tokens.1inch.exchange/0x44564d0bd94343f72e3c8a0d22308b7fa71db0bb.png",
+    "balance": 0.008818498316845275,
+    "network": "ETHEREUM",
+    "price": 1.98,
+    "equity": 0.017460626667353644
+  },
+  {
+    "symbol": "TORN",
+    "name": "TornadoCash",
+    "address": "0x77777feddddffc19ff86db637967013e6c6a116c",
+    "decimals": 18,
+    "logoURI": "https://tokens.1inch.exchange/0x77777feddddffc19ff86db637967013e6c6a116c.png",
+    "balance": 0.16173033518782864,
+    "network": "ETHEREUM",
+    "price": 42.71,
+    "equity": 6.907502615872161
+  },
+  {
+    "symbol": "OGN",
+    "name": "Origin Protocol",
+    "address": "0x8207c1ffc5b6804f6024322ccf34f29c3541ae26",
+    "decimals": 18,
+    "logoURI": "https://tokens.1inch.exchange/0x8207c1ffc5b6804f6024322ccf34f29c3541ae26.png",
+    "balance": 96.4738554495276,
+    "network": "ETHEREUM",
+    "price": 0.260997,
+    "equity": 25.179386850760356
+  },
+  {
+    "symbol": "REN",
+    "name": "Republic",
+    "address": "0x408e41876cccdc0f92210600ef50372656052a38",
+    "decimals": 18,
+    "logoURI": "https://tokens.1inch.exchange/0x408e41876cccdc0f92210600ef50372656052a38.png",
+    "balance": 10174.190409407789,
+    "network": "ETHEREUM",
+    "price": 0.322962,
+    "equity": 3285.8768830031586
+  },
+  {
+    "symbol": "EPS",
+    "name": "Ellipsis",
+    "address": "0xA7f552078dcC247C2684336020c03648500C6d9F",
+    "decimals": 18,
+    "logoURI": "https://pancakeswap.finance/images/tokens/0xA7f552078dcC247C2684336020c03648500C6d9F.png",
+    "balance": 12.043171971644423,
+    "network": "BSC",
+    "price": 0.8222696152756834,
+    "equity": 9.902734383822953
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ehereum",
+    "address": "",
+    "decimals": 18,
+    "logoURI": "https://tokens.1inch.exchange/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png",
+    "balance": 80.08873533463237,
+    "network": "ETHEREUM",
+    "price": 2483.04,
+    "equity": 198863.53338530558
+  },
+  {
+    "symbol": "BNB",
+    "name": "Binance Coin",
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "decimals": 18,
+    "logoURI": "https://bscscan.com/token/images/binance_32.png",
+    "balance": 0.010936367010692604,
+    "network": "BSC",
+    "price": 382.81,
+    "equity": 4.186550655363235
+  }
+]
